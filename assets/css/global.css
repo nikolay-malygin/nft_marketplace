@@ -115,7 +115,6 @@ input::placeholder {
 
 input, input::placeholder, .input-group-text {
 	border: none !important;
-	background-color: var(--text-light-color) !important;
 }
 
 input:focus {
