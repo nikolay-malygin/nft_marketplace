@@ -1,0 +1,21 @@
+
+/* Main styles */
+.main-img {
+	background-image: url('../../signUp/images/ImagePlaceholder.svg');
+	background-color: var(--accent-color);
+	background-size: cover;
+	background-position: center center;
+	min-height: 40vh;
+	height: 100%;
+	width: 100%;
+}
+
+main input, input::placeholder, label {
+	border-top-right-radius: 20px !important;
+	border-bottom-right-radius: 20px !important;
+}
+
+main .input-group-text {
+	border-top-left-radius: 20px !important;
+	border-bottom-left-radius: 20px !important;
+}
