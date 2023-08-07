@@ -128,7 +128,7 @@ footer {
 	background-color: var(--background-secondary-color);
 }
 
-footer .title {
+.title {
 	font-family: var(--font-space-mono) !important;
 }
 
@@ -136,17 +136,17 @@ footer a:hover {
 	color: var(--accent-color) !important;
 }
 
-.input-group button {
+footer .input-group button, .subscribe-widget .input-group button {
 	transform: translateX(-20%);
 }
 
-.input-group input:focus + button {
+footer .input-group input:focus + button, .subscribe-widget .input-group input:focus + button{
 	transform: translateX(0%);
 	border-top-left-radius: 0px !important;
 	border-bottom-left-radius: 0px !important;
 }
 
-.input-group input:focus {
+footer .input-group input:focus, .subscribe-widget .input-group input:focus {
 	border-top-right-radius: 0px !important;
 	border-bottom-right-radius: 0px !important;
 }
